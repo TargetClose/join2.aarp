@@ -40,17 +40,17 @@ td {
 
 @font-face {
 	font-family: DagnyOffcPro;
-	src: url('assets/fonts/DagnyOffcPro.otf');
+	src: url('/join2.aarp/assets/fonts/DagnyOffcPro.otf');
 }
 
 @font-face {
 	font-family: DagnyOffcProBold;
-	src: url('assets/fonts/DagnyOffcProBold.otf');
+	src: url('/join2.aarp/assets/fonts/DagnyOffcProBold.otf');
 }
 
 @font-face {
 	font-family: DagnyOffcProBlack;
-	src: url('assets/fonts/DagnyOffcProBlack.otf');
+	src: url('/join2.aarp/assets/fonts/DagnyOffcProBlack.otf');
 }
 
 #container {
