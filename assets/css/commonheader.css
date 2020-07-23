@@ -1,0 +1,155 @@
+
+/*** header css starts ****/
+.sticky_header {
+    width: 100%;
+    background: #C23934 none repeat scroll 0 0;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}
+.header {
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1200px;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.rightSection{
+float: right;
+}
+.buttonsHeader{
+display: flex;
+align-items: center;
+flex-flow: row;
+justify-content: space-between;
+}
+
+.buttonsHeader .joinNow, .buttonsHeader .renewtext {
+border: 1px solid #fff;
+color:#fff;
+font-weight: normal;
+text-decoration: none;
+font-family: DagnyOffcProbold;
+}
+
+.phoneNumber {
+    color: #fff;
+    font-family: DagnyOffcPro;
+    position: relative;
+    text-align: center;
+}
+.hero_logo {
+border: none;
+}
+/*** header css ends ***/
+
+@media screen and (max-width:699px) {
+
+.sticky_header, .header {
+height: 58px;
+}
+.header {
+    width: 100%;
+}
+.logo{
+position: relative;
+top: 3px;
+}
+.hero_logo {
+width: 100px;
+margin-left: 20px;
+}
+.rightSection{
+margin-right: 20px;
+}
+.buttonsHeader .joinNow{
+border-radius: 4px;
+padding: 5px 21px;
+font-size: 14px !important;
+}
+.buttonsHeader .renewtext {
+border-radius: 4px;
+padding: 5px 14px;
+font-size: 14px !important;
+margin-left: 11px;
+}
+.buttonsHeader .joinNow.joinES {
+padding: 5px 16px;
+}
+.buttonsHeader .renewtext.renewES {
+padding: 5px 10px;
+}
+.phoneNumber {
+display: none;
+}
+}
+@media screen and (min-width:700px){
+
+.sticky_header, .header {
+    height: 6.400vw;
+}
+.header {
+    width: 96vw;
+}
+.logo {
+    padding-left: 4.800vw;
+    margin-top: 0.400vw;
+}
+.hero_logo {
+    width: 13.280vw;
+}
+.buttonsHeader .joinNow  {
+font-size: calc(14px + (17 - 14) * ((100vw - 700px) / (1250 - 700)));
+padding: 0.400vw 3.200vw;
+border-radius: 0.640vw;
+}
+.buttonsHeader .renewtext{
+font-size: calc(14px + (17 - 14) * ((100vw - 700px) / (1250 - 700)));
+padding: 0.400vw 2.400vw;
+margin-left: 2.080vw;
+border-radius: 0.640vw;
+}
+.phoneNumber {
+    font-size: calc(12px + (14 - 12) * ((100vw - 700px) / (1250 - 700)));
+    top: 0.5vw;
+}
+.rightSection{
+padding-right: 4.800vw;
+}
+}
+@media screen and (min-width:1200px){
+
+.sticky_header, .header {
+    height: 80px;
+}
+.header {
+    width: 1200px;
+}
+.logo {
+    padding-left: 60px;
+    margin-top: 5px;
+}
+.hero_logo {
+    width: 166px;
+}
+.buttonsHeader .joinNow  {
+font-size: 17px;
+padding: 5px 40px;
+border-radius: 8px;
+}
+.buttonsHeader .renewtext{
+font-size: 17px;
+padding: 5px 30px;
+margin-left: 26px;
+border-radius: 8px;
+}
+.phoneNumber {
+    font-size: 14px;
+    top: 8px;
+}
+.rightSection{
+padding-right: 60px;
+}
+}
