@@ -10,7 +10,7 @@ function removeURLParameter(e,r){var t="",o=e.split("?"),a=o[0],l=o[1],n="";if(l
 // Default values
 var jCmpId; var rCmpId; var urlLoc = window.location.pathname.split('/')[1]; 
 var tc_tm_version = urlLoc; var tc_hpc = window.location.host;
-var queryStr = "", joinLink = "/member-join-clean/", joinSpanish = "https://appsec.aarp.org/mem/join", renewLink = "https://appsec.aarp.org/mem/renew",
+var queryStr = "", joinLink = "https://join.aarp.org/member-join-clean/", joinSpanish = "https://appsec.aarp.org/mem/join", renewLink = "https://appsec.aarp.org/mem/renew",
     qStrLower = new Array, kcToRm = new Array("keycode", "jkc", "rkc"),
     joinCmpid = new Array("jkc", "campaignid", "keycode"), renewCmpid = new Array("rkc", "campaignid", "keycode");
 	
